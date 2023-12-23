@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Montserrat:wght@200&family=Pixelify+Sans&family=Roboto+Slab:wght@300&family=Slabo+27px&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MenuPrincipal</title>
+    <script type="text/javascript" src="cajero.js"></script>
+    <link rel="stylesheet" href="cajero.css">
+
+</head>
+<body>
+    
+    <div class="Padre">
+
+        <header class="Arriba">
+            <img id="logo" src="https://www.pngall.com/wp-content/uploads/1/Bank-PNG-Image.png" alt="logo de banco">
+            <h1>Banco del Carmen </h1>
+        </header>
+
+        <main>
+
+            <h1 id="MenuP">Menú principal</h1>
+
+
+
+            <div class="Texto">
+                <p id="textoCambiable"></p>
+
+            
+                <p id="textoCambiable2"></p></div>
+            
+                <form id="retiroDeposito">
+                
+                    <input type="text" id="montoTransaccion" required>
+                
+                    <button type="submit" id="confirmar">Confirmar</button>
+                </form>
+
+                
+            <div class="BtRDI">
+                
+                <button type="button" id="consulta"></button> 
+            
+                <span class="TextoBt">Consultar saldo</span>
+            </div>
+        
+            <div class="BtRDI">
+                <button type="button" id="retiro"></button>
+
+                <span class="TextoBt">Retirar dinero</span>
+            </div>
+             
+            <div class="BtRDI">
+                <button type="button" id="deposito"></button> 
+            
+                <span class="TextoBt">Ingresar dinero</span>
+            </div>
+            
+
+            
+        
+        
+            <div class="BtRegreso"> <button type="button" id="cerrarSesion"></button><span class="TextoBt">Salida segura</span></div>
+        
+             </div>
+        
+            </div>
+
+        </main>
+    </div>
+<script src="cajero.js"></script>
+
+</body>
+</html>

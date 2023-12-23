@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Montserrat:wght@200&family=Pixelify+Sans&family=Roboto+Slab:wght@300&family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ProyectoDeBanco</title>
+</head>
+<body>
+    <div class="Padre">
+
+        <header class="Arriba">
+            <img id="logo" src="https://www.pngall.com/wp-content/uploads/1/Bank-PNG-Image.png" alt="logo de banco">
+            <h1>Banco del Carmen </h1>
+        </header>
+
+        <form id="form">
+
+            <div id="Login">
+                <h2>Bienvenido</h2>
+                <h3>Ingresa tu usuario</h3>
+                <input type="text" class="input" id="inputUsuarioHtml" placeholder="Ingresa tu usuario">
+    
+                <span class="escondido" id="errorUsuario">
+                    Usuario incorrecto
+                </span>
+        
+                <h3 id="h3">Ingresa tu contraseña</h3>
+                <input type="password" class="input" id="inputPasswordHtml" placeholder="Ingresa tu password">
+        
+                <span class="escondido" id="errorPassword">
+                    Password incorrecto
+                </span>
+        
+                <div id="BotonI">
+                <h4>boton</h4>
+                <button type="submit">Ingresar</button>
+                </div>
+        
+                <span class="escondido" id="errorDatos">
+                    Ingresa tus datos
+                </span>
+            </div>
+    
+        </form>
+    
+        <script src="login.js"></script>
+
+
+
+
+    </div>
+</body>
+</html>
